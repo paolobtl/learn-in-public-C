@@ -1,0 +1,40 @@
+# Compiled binaries
+*.o
+*.out
+
+# Executables (C programs without extension)
+# Ignore executable files in lesson/exercise folders
+antirez-course/lezioni/**/ex[0-9]*
+antirez-course/lezioni/**/test
+antirez-course/lezioni/**/main
+antirez-course/esercizi/**/ex[0-9]*
+antirez-course/esercizi/**/test
+antirez-course/esercizi/**/main
+kr-exercises/**/ex[0-9]*
+kr-exercises/**/test
+kr-exercises/**/main
+# Ignore files with numbers but no extension (executables)
+kr-exercises/**/[0-9]*
+!kr-exercises/**/[0-9]*.c
+!kr-exercises/**/[0-9]*.h
+!kr-exercises/**/[0-9]*.md
+
+# Assembly files
+*.s
+
+# # Debug files
+# *.dSYM/
+# *.su
+# *.idb
+# *.pdb
+
+# # Editor and IDE
+# .vscode/
+# .idea/
+# *.swp
+# *.swo
+# *~
+
+# # OS
+# .DS_Store
+# Thumbs.db
