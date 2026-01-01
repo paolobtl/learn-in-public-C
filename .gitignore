@@ -22,19 +22,20 @@ kr-exercises/**/[0-9]*
 # Assembly files
 *.s
 
-# # Debug files
-# *.dSYM/
-# *.su
-# *.idb
-# *.pdb
-
-# # Editor and IDE
-# .vscode/
-# .idea/
-# *.swp
-# *.swo
-# *~
-
-# # OS
-# .DS_Store
-# Thumbs.db
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+# Editor and IDE
+.json
+.vscode/
+.idea/
+*.swp
+*.sw
+*~
+# OS
+.DS_Store
+Thumbs.d
+.claude/settings.local.json
+.gitignore
